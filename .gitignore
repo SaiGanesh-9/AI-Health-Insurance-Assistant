@@ -1,0 +1,40 @@
+# Environment variables
+.env
+.env.*
+
+# Google Cloud credentials
+gcs_credentials.json
+*credentials*.json
+service-account*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local vector database
+chroma_db/
+
+# Customer / insurance documents
+data/*.pdf
+data/*.txt
+uploads/
+uploaded_files/
+
+# Generated data
+*.jsonl
+embeddings/
+processed_data/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
